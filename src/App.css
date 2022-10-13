@@ -1,0 +1,48 @@
+.inputArea{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.input{
+  outline: none;
+  padding: 10px;
+  border-radius: 999px;
+  border: 2px solid black;
+}
+
+.booksArea{
+  overflow-wrap: break-word;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.booksBox{
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0px 0px 15px -5px #777777;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.loadingText{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.booksBox small{
+  display: block;
+}
+
+.inputArea button{
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: aliceblue;
+}
+
+.inputArea button:hover{
+  background-color: aquamarine;
+}
